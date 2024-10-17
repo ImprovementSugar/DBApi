@@ -37,7 +37,7 @@ Vue.config.productionTip = false
 // 使用vue-axios，这样才可以全局使用this.axios调用
 Vue.use(VueAxios, axios);
 
-// axios.defaults.baseURL = '/api'
+axios.defaults.baseURL = '/api'
 
 axios.defaults.headers = { 'Content-Type': CONTENT_TYPE.FORM_URLENCODED }
 // 全局拦截post请求的参数，用qs序列化

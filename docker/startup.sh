@@ -5,4 +5,4 @@
 source /opt/init_config.sh
 
 #这里用source不行
-exec bin/dbapi.sh start $1
+exec bash /opt/dbapi-3.2.1/bin/dbapi.sh start standalone
