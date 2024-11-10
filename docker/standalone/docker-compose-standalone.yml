@@ -19,7 +19,7 @@ services:
   api:
     image: freakchicken/db-api:3.2.1
     build:
-      context: ..
+      context: ../..
       args:
         - VERSION=3.2.1
     command: ${RUN_COMMAND}
