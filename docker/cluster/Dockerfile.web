@@ -1,0 +1,4 @@
+FROM nginx
+USER root
+COPY ./dbapi-ui/dist /usr/share/nginx/html/
+CMD ["nginx", "-g", "daemon off;"]
